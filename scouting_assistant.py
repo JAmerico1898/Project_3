@@ -161,7 +161,7 @@ if choose == "Análise Individual":
 
             #st.markdown("<h3 style='text-align: center;'>Percentis dos Atributos do Jogador na Liga em 2024</h3>", unsafe_allow_html=True)
             # Collecting data
-            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_Z.csv')
+            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_z.csv')
             Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
             #Collecting data to plot
@@ -491,7 +491,7 @@ if choose == "Análise Individual":
 
             #st.markdown("<h3 style='text-align: center;'>Percentis dos Atributos do Jogador na Liga em 2024</h3>", unsafe_allow_html=True)
             # Collecting data
-            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_Z.csv')
+            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_z.csv')
             Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
             #Collecting data to plot
@@ -822,7 +822,7 @@ if choose == "Análise Individual":
 
             #st.markdown("<h3 style='text-align: center;'>Percentis dos Atributos do Jogador na Liga em 2024</h3>", unsafe_allow_html=True)
             # Collecting data
-            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_Z.csv')
+            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_z.csv')
             Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
             #Collecting data to plot
@@ -1151,7 +1151,7 @@ if choose == "Análise Individual":
 
             #st.markdown("<h3 style='text-align: center;'>Percentis dos Atributos do Jogador na Liga em 2024</h3>", unsafe_allow_html=True)
             # Collecting data
-            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_Z.csv')
+            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_z.csv')
             Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
             #Collecting data to plot
@@ -1506,7 +1506,7 @@ if choose == "Análise Individual":
 
             #st.markdown("<h3 style='text-align: center;'>Percentis dos Atributos do Jogador na Liga em 2024</h3>", unsafe_allow_html=True)
             # Collecting data
-            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_Z.csv')
+            Lateral_Charts_2 = pd.read_csv('variable_df_adj_final_z.csv')
             Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
             #Collecting data to plot
