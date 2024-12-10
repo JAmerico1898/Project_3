@@ -15,6 +15,21 @@ import os
 import google.generativeai as genai
 import openai
 
+import os
+from dotenv import load_dotenv
+import streamlit as st
+import openai
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the API key
+api_key = os.getenv("GEMINI_API_KEY")
+
+if not api_key:
+    st.error("API key not found! Please set it in the .env file.")
+    
+
 #CABEÇALHO DO FORM
 st.markdown("<h1 style='text-align: center;'>Assistente de Scouting<br>Fase 2</h1>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center;'>app by @JAmerico1898</h6>", unsafe_allow_html=True)
@@ -36,7 +51,7 @@ with st.sidebar:
 
 
 df13 = pd.read_csv("base_jogadores_scouting_assistant_2024.csv")
-df16 = pd.read_csv("Atributos.csv")
+df16 = pd.read_csv("atributos.csv")
 prospectos = df13["player_name"]
 clubes = df13["Team within selected timeframe"]
 posições = df13["role_2"]
