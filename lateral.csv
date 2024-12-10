@@ -1,0 +1,59 @@
+player_name,Team within selected timeframe,role_2,involvement,active_defence,intelligent_defence,territorial_dominance,chance_prevention,progression,passing_quality,run_quality,providing_teammates
+José Rodríguez,Vasco da Gama,R/L BACK,0.32,-0.06,0.15,-0.7,-0.36,1.14,1.1,0.14,0.77
+Lucas Piton,Vasco da Gama,R/L BACK,-0.48,-0.6,-0.11,-0.89,-0.49,-0.41,0.11,-0.21,-0.4
+Paulo Henrique,Vasco da Gama,R/L BACK,0.6,0.95,0.06,-0.12,-0.25,1.14,1.07,-0.09,0.63
+Joaquín Piquerez,Palmeiras,R/L BACK,-0.25,0.12,-0.01,-0.36,0.12,-0.54,-0.2,-0.44,-0.44
+Vanderlan,Palmeiras,R/L BACK,-0.94,0.59,-0.44,-0.71,-0.5,-1.14,-0.96,-0.3,-0.51
+Marcos Rocha,Palmeiras,R/L BACK,1.13,0.36,0.43,-0.11,0.23,2.5,1.65,0.67,0.45
+William,Cruzeiro,R/L BACK,0.36,0.36,0.97,0.92,0.43,1.4,1.08,0.16,0.6
+Gilberto,Bahia,R/L BACK,-1.76,-1.08,-1.44,-1.25,-0.32,-1.68,-1.5,0.35,0.32
+Wesley,Grêmio,R/L BACK,-0.31,-0.17,-0.97,0.26,0.53,-0.07,-0.32,1.32,0.44
+João Pedro,Grêmio,R/L BACK,-0.14,-1.03,-0.6,-0.21,0.28,0.82,0.34,-0.18,0.39
+Diogo Barbosa,Fluminense,R/L BACK,-0.51,-0.93,-0.03,-0.64,-0.48,-0.79,-0.57,-0.05,-0.61
+Vítor Jacaré,Bahia,R/L BACK,0.15,0.31,0.09,0.21,0.01,1.08,0.67,0.87,0.57
+Renê,Internacional,R/L BACK,1.21,0.53,0.46,0.35,-0.04,0.51,0.07,-0.14,-0.38
+Ayrton Lucas,Flamengo,R/L BACK,0.32,0.42,0.31,0.32,0.5,-0.63,-0.39,0.12,-0.54
+Natanael,Coritiba,R/L BACK,0.3,0.56,-0.02,1.09,0.34,0.21,0.19,0.21,0.34
+Jamerson,Coritiba,R/L BACK,-0.12,0.33,-0.44,-0.67,-0.25,-0.76,-0.71,-0.64,-0.75
+Victor Luís,Coritiba,R/L BACK,-0.19,-0.03,-0.05,-0.82,0.04,-0.42,-0.58,-0.72,-0.4
+Tinga,Fortaleza,R/L BACK,0.54,-0.36,-0.09,0.97,0.82,0.85,0.61,0.19,0.35
+Bruno Pacheco,Fortaleza,R/L BACK,-0.23,0.14,-0.21,0.22,0.09,-0.6,-0.85,-0.69,-0.54
+Guilherme,Red Bull Bragantino,R/L BACK,-0.32,-1.06,-1.37,-0.12,0.63,-0.22,-0.02,1.56,0.65
+Samuel Xavier,Fluminense,R/L BACK,-0.05,-0.25,0.16,0.84,0.07,-0.18,-0.05,0.03,0.56
+Guga,Fluminense,R/L BACK,-0.18,-0.01,0.7,0.47,0.26,-0.31,-0.04,-0.18,0.02
+Madson,Athletico Paranaense,R/L BACK,-1.24,-1.42,-0.3,-0.6,-0.1,-0.83,-0.81,0.34,0.63
+Tomás Cuello,Athletico Paranaense,R/L BACK,-0.02,0.33,0.01,0.7,0.2,0.71,0.65,0.47,0.23
+Khellven,Athletico Paranaense,R/L BACK,-0.45,-0.76,-0.24,-0.5,-0.43,0.37,0.3,1.08,0.75
+Agustín Canobbio,Athletico Paranaense,R/L BACK,-0.27,0.25,-1.1,1.17,1.32,-0.02,-0.0,1.55,0.73
+Leonel Di Plácido,Botafogo,R/L BACK,0.45,0.56,0.64,0.62,-0.07,0.8,0.73,-0.23,0.35
+Daniel Borges,América Mineiro,R/L BACK,0.38,0.43,0.08,0.45,-0.01,1.06,1.15,0.23,0.42
+Matheus Alexandre,Cuiabá,R/L BACK,-0.13,0.11,-0.27,0.07,-0.06,-0.17,-0.13,-0.48,0.01
+Aderlan,Red Bull Bragantino,R/L BACK,0.68,1.49,2.6,0.64,0.25,0.68,0.75,-0.17,0.3
+Juninho Capixaba,Red Bull Bragantino,R/L BACK,0.93,1.97,2.56,3.4,1.02,0.37,0.31,-0.32,-0.05
+Andrés Hurtado,Red Bull Bragantino,R/L BACK,0.19,0.39,1.34,-0.35,-0.04,1.05,1.07,-0.07,-0.04
+Gabriel Inocêncio,Santos,R/L BACK,0.61,0.47,-0.07,0.87,-0.35,-0.19,-0.43,-0.66,-0.23
+Marçal,Botafogo,R/L BACK,0.07,0.01,0.92,0.1,-0.24,-0.03,-0.07,-0.49,-0.63
+Hugo,Botafogo,R/L BACK,-0.19,0.49,1.19,-0.16,-0.48,-0.55,-0.49,0.45,-0.71
+Mayke,Palmeiras,R/L BACK,0.25,0.37,0.44,0.38,0.22,0.93,1.01,0.01,0.31
+Matheus Bidu,Corinthians,R/L BACK,0.66,0.41,0.13,0.1,0.06,-0.14,0.22,-0.09,-0.55
+Fágner,Corinthians,R/L BACK,0.67,-0.25,-0.29,0.36,0.06,1.78,1.53,0.29,0.7
+Rafinha,São Paulo,R/L BACK,0.53,0.03,0.39,0.04,-0.13,1.62,1.02,-0.34,-0.21
+Caio Paulista,São Paulo,R/L BACK,0.1,0.42,0.36,-0.02,-0.23,-0.79,-0.38,0.5,-0.3
+Nathan Mendes,São Paulo,R/L BACK,0.45,0.34,1.07,0.74,-0.19,-0.57,-0.17,-0.27,-0.06
+Rikelme,Cuiabá,R/L BACK,-0.68,-0.12,-0.07,-0.19,0.29,-0.87,-0.87,-0.61,-0.63
+Lucas Braga,Santos,R/L BACK,-0.74,-0.97,-1.31,-0.31,-0.07,-0.01,-0.39,0.09,-0.03
+João Lucas,Santos,R/L BACK,0.06,0.25,0.08,1.07,0.04,0.54,0.46,0.6,0.65
+Fabricio Bustos,Internacional,R/L BACK,0.4,0.04,-0.05,0.35,0.15,0.32,0.45,-0.44,0.5
+Maguinho,Goiás,R/L BACK,-0.21,-0.31,0.14,0.1,0.54,-0.3,-0.4,-0.26,0.24
+Sander,Goiás,R/L BACK,0.54,0.27,0.11,0.35,-0.13,-0.06,0.22,-0.27,-0.3
+Renzo Saravia,Atlético Mineiro,R/L BACK,0.49,0.98,0.47,0.74,0.09,0.35,-0.11,-0.52,-0.4
+Rubens,Atlético Mineiro,R/L BACK,0.6,2.05,0.88,0.37,-0.05,-0.87,-0.7,-0.24,-0.53
+Mariano,Atlético Mineiro,R/L BACK,0.46,0.71,0.47,-0.43,-0.33,0.94,0.37,-0.58,-0.18
+Guilherme Arana,Atlético Mineiro,R/L BACK,0.04,-0.08,-0.18,-0.46,0.05,-0.38,-0.11,-0.33,-0.29
+Bruno Méndez,Corinthians,R/L BACK,-0.05,-0.33,-0.28,-0.51,-0.29,-0.12,-0.42,-0.58,-0.32
+Reinaldo,Grêmio,R/L BACK,-0.07,-0.73,-0.57,-0.72,-0.05,0.49,0.63,0.06,0.52
+Marcelo,Fluminense,R/L BACK,0.55,0.25,0.08,0.55,-0.28,0.84,1.44,0.46,0.44
+Kevyson,Santos,R/L BACK,-0.49,0.4,-0.18,-0.27,-0.35,-0.56,-0.43,-0.0,-0.54
+Welington,São Paulo,R/L BACK,-0.06,-0.08,-0.16,-0.34,-0.08,-0.73,-0.38,-0.69,-0.58
+Luan Cândido,Red Bull Bragantino,R/L BACK,-0.39,0.09,0.26,-0.29,-0.19,-0.71,-0.91,-0.72,-0.25
+Camilo Cándido,Bahia,R/L BACK,-0.28,-0.16,0.53,-0.82,-0.48,-0.31,-0.25,-0.36,-0.25

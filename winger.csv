@@ -1,0 +1,51 @@
+player_name,Team within selected timeframe,role_2,involvement,pressing,passing_quality,run_quality,dribbling,effectiveness,providing_teammates,box_threat,finishing
+Gabriel Pec,Vasco da Gama,WINGER,-0.83,-0.79,-0.83,-0.01,0.47,0.68,-0.04,0.61,0.67
+Artur,Palmeiras,WINGER,-0.29,-0.56,0.67,0.55,0.97,0.7,0.52,0.71,0.46
+Jhon Jhon,Palmeiras,WINGER,-0.62,0.2,-0.59,-0.66,-0.0,-0.64,-0.45,-0.9,-0.98
+Breno Lopes,Palmeiras,WINGER,-1.03,-1.17,-1.19,-0.17,0.03,0.08,-0.13,0.98,-0.08
+Nikão,Cruzeiro,WINGER,0.0,-0.42,0.72,0.38,-0.6,-0.54,0.58,0.34,-0.08
+Bitello,Grêmio,WINGER,1.47,-0.12,0.95,0.57,0.36,0.42,0.94,0.77,0.79
+Everton Galdino,Grêmio,WINGER,-0.26,-0.86,-0.71,-0.07,0.19,-0.16,0.56,0.44,2.12
+Ademir,Bahia,WINGER,0.3,0.23,0.29,0.39,0.16,0.69,0.03,0.91,0.2
+Biel,Bahia,WINGER,-0.42,-0.39,0.08,2.04,0.47,0.55,0.63,1.59,0.72
+Maurício,Internacional,WINGER,-0.44,-0.46,-0.24,-0.14,-0.06,0.05,0.27,0.29,0.8
+Éverton Ribeiro,Flamengo,WINGER,0.73,0.74,1.54,0.02,0.38,-0.01,0.13,-0.2,0.28
+Marinho,Fortaleza,WINGER,-0.34,-0.57,-0.21,0.72,-0.39,-0.2,-0.06,0.34,-0.17
+Robson,Coritiba,WINGER,-0.25,-0.02,-0.75,-0.57,-0.5,0.23,-0.11,-0.27,0.33
+Kaio César,Coritiba,WINGER,0.55,-0.08,-0.25,-0.2,-1.1,-0.03,-0.28,-1.22,-1.15
+Marcelino Moreno,Coritiba,WINGER,0.56,-0.84,0.67,0.54,0.65,0.25,-0.2,-0.09,-0.34
+Calebe,Fortaleza,WINGER,-0.05,-0.96,0.21,0.64,1.27,-0.1,0.46,0.55,-0.33
+Yago Pikachu,Fortaleza,WINGER,-0.82,-1.06,-0.15,0.24,0.11,-0.17,0.49,0.61,1.06
+Jhon Arias,Fluminense,WINGER,1.22,1.7,1.28,0.16,0.39,1.23,0.33,0.61,0.22
+Keno,Fluminense,WINGER,-0.61,0.82,-0.15,-0.47,0.13,0.13,-0.21,0.07,-0.92
+Vitor Bueno,Athletico Paranaense,WINGER,-0.07,-0.79,1.22,-0.19,0.82,-0.18,0.67,-0.48,-0.61
+Christian,Athletico Paranaense,WINGER,-0.63,0.16,-0.69,-0.85,-0.17,-0.3,-0.48,-0.23,0.74
+Júnior Santos,Botafogo,WINGER,0.35,-0.26,-0.31,0.74,0.51,0.73,0.62,0.57,1.16
+Victor Sá,Botafogo,WINGER,-0.28,0.46,-0.67,0.03,0.18,-0.11,0.01,0.37,-0.3
+Luis Henrique,Botafogo,WINGER,-0.39,-1.33,-0.27,-0.15,0.59,-0.77,-0.07,0.15,0.9
+Jonathan Cafú,Cuiabá,WINGER,-0.19,-0.43,-0.35,-0.38,-0.81,-0.43,-0.19,-0.69,-1.05
+Wellington Silva,Cuiabá,WINGER,-0.56,-0.71,-0.53,0.53,0.57,-0.55,-0.37,-0.42,-0.37
+Helinho,Red Bull Bragantino,WINGER,0.97,1.06,1.89,0.69,0.11,0.85,0.9,0.85,0.16
+Henry Mosquera,Red Bull Bragantino,WINGER,-0.46,0.49,-0.52,0.2,-0.17,-0.34,0.13,0.07,0.41
+Sorriso,Red Bull Bragantino,WINGER,0.87,1.25,0.76,0.11,-0.39,0.69,0.29,0.57,0.6
+Steven Mendoza,Santos,WINGER,-0.1,-0.57,-0.42,0.07,0.31,0.12,0.07,0.44,0.57
+Adson,Corinthians,WINGER,0.86,0.35,0.59,0.22,0.23,0.05,0.26,-1.23,-0.98
+Ángel Romero,Corinthians,WINGER,0.32,-0.37,0.2,-0.68,0.91,0.37,0.14,1.75,3.58
+Giuliano,Corinthians,WINGER,0.24,0.09,-0.45,-1.08,-0.52,-0.94,-0.47,-1.35,-0.52
+Michel Araújo,São Paulo,WINGER,0.47,1.44,0.13,-0.27,0.28,0.1,-0.61,-0.15,-0.95
+Rodrigo Nestor,São Paulo,WINGER,-0.47,0.89,-0.62,0.17,0.25,-0.28,-0.49,-0.24,-0.95
+Wellington Rato,São Paulo,WINGER,-0.17,0.31,0.92,0.73,-0.06,0.09,0.09,0.08,-1.09
+Vitinho,Red Bull Bragantino,WINGER,-0.21,0.83,-0.49,0.01,-0.23,-0.31,-0.32,-0.08,-0.68
+Vinícius,Goiás,WINGER,-0.1,-0.3,0.38,-0.13,0.07,-0.49,-0.13,-0.22,-1.07
+Matías Zaracho,Atlético Mineiro,WINGER,0.27,2.15,-0.73,-0.66,-0.26,0.01,-0.76,-1.08,-0.48
+Cristian Pavón,Atlético Mineiro,WINGER,0.2,0.22,0.06,0.24,-0.07,0.07,0.39,0.19,-0.18
+Allano,Goiás,WINGER,0.9,-0.21,-0.14,0.8,-0.18,0.38,0.63,-0.42,-0.74
+Anderson Oliveira,Goiás,WINGER,0.22,-0.59,-0.58,0.57,-0.46,-0.37,-0.23,-0.8,-1.03
+Ferreira,Grêmio,WINGER,0.71,-0.81,0.15,0.22,0.75,-0.37,0.72,0.89,0.94
+Dimitri Payet,Vasco da Gama,WINGER,-0.36,-0.99,1.02,-0.34,-0.02,-0.47,-0.24,0.02,0.83
+Clayson,Cuiabá,WINGER,-0.44,-1.14,0.25,-0.29,-0.71,-0.37,-0.19,0.02,0.84
+Arthur Gomes,Cruzeiro,WINGER,-0.96,-0.81,-0.85,0.04,-0.05,-0.09,-0.47,0.0,-0.03
+Bruno Zapelli,Athletico Paranaense,WINGER,0.12,-0.52,0.58,0.72,-0.04,0.57,-0.09,0.3,-1.2
+Luiz Araújo,Flamengo,WINGER,0.52,0.79,0.49,0.38,-0.07,0.83,0.59,1.0,1.3
+Lucas Moura,São Paulo,WINGER,-0.12,0.13,-0.19,-0.46,-0.74,0.02,-0.69,-0.69,-0.11
+Matheus Pereira,Cruzeiro,WINGER,0.23,-0.28,1.0,-0.02,-0.34,-0.21,0.39,-0.69,-0.36

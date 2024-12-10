@@ -1,0 +1,78 @@
+player_name,Team within selected timeframe,role_2,involvement,active_defence,intelligent_defence,territorial_dominance,chance_prevention,defensive_heading,aerial_threat,composure,progression
+Léo,Vasco da Gama,DEFENCE,-0.36,-1.04,-1.05,-1.32,-0.69,-0.84,-1.04,0.75,0.08
+Robson Bambu,Vasco da Gama,DEFENCE,0.67,-0.1,-0.21,-0.48,0.0,0.22,-0.75,0.33,0.28
+Jair,Santos,DEFENCE,1.05,0.82,-0.09,0.24,-0.1,-1.28,-0.2,-0.33,1.56
+Murilo,Palmeiras,DEFENCE,-0.21,0.11,0.02,0.04,0.01,-0.65,-0.59,-0.02,-0.41
+Gustavo Gómez,Palmeiras,DEFENCE,0.36,0.23,0.15,0.34,0.49,0.73,1.53,-0.16,-0.02
+Luan,Palmeiras,DEFENCE,0.04,-0.17,-0.03,-0.12,0.27,0.53,0.33,-0.07,0.55
+Lucas Oliveira,Cruzeiro,DEFENCE,0.43,-0.26,0.26,-0.47,-0.52,1.13,0.12,0.31,1.39
+Luciano Castán,Cruzeiro,DEFENCE,-0.12,-0.57,-0.13,-0.64,0.16,0.54,0.41,-0.03,-0.25
+Marlon,Fluminense,DEFENCE,0.73,1.37,1.8,0.33,0.06,-1.56,-0.93,0.01,1.72
+Neris,Cruzeiro,DEFENCE,-0.08,0.47,0.2,0.35,-0.2,-0.04,0.51,-0.19,0.69
+Walter Kannemann,Grêmio,DEFENCE,-0.39,0.9,0.87,0.44,-0.06,0.69,0.16,0.34,-0.85
+Bruno Alves,Grêmio,DEFENCE,-1.2,-0.78,-0.6,-0.04,-0.25,-0.17,-0.53,-0.16,-1.28
+Bruno Uvini,Grêmio,DEFENCE,-1.05,-0.78,-0.56,-0.49,0.05,-0.65,0.86,-1.28,-0.97
+David Duarte,Bahia,DEFENCE,-0.27,-0.62,-0.52,-0.53,-0.02,-0.53,0.03,-0.18,-0.88
+Kanu,Bahia,DEFENCE,0.12,0.52,0.19,1.26,0.95,-0.71,-0.12,0.18,-0.5
+Rezende,Bahia,DEFENCE,0.24,1.63,1.1,2.71,0.51,-0.47,-0.34,0.0,-0.21
+Vitor Hugo,Bahia,DEFENCE,-0.66,0.59,-0.11,-0.01,-0.17,0.54,0.33,-0.28,-0.24
+Gabriel Xavier,Bahia,DEFENCE,0.22,0.84,1.94,1.25,0.08,1.19,1.34,0.43,-0.29
+Igor Gomes,Internacional,DEFENCE,1.17,0.94,0.55,0.95,-0.32,-1.09,-0.88,0.07,1.85
+Gabriel Mercado,Internacional,DEFENCE,-0.63,-0.61,0.08,-0.35,-0.18,-0.39,-0.56,0.28,-1.12
+Vitão,Cuiabá,DEFENCE,-0.21,-1.15,-0.82,-0.38,-0.23,-0.19,0.07,-0.09,-0.17
+Pedro Henrique,Athletico Paranaense,DEFENCE,-0.74,0.07,-1.13,-0.22,-0.36,-1.43,1.31,-2.06,0.76
+Wanderson,América Mineiro,DEFENCE,-0.87,-0.78,-1.4,-0.97,-0.22,-2.06,-1.62,-1.26,0.6
+Nicolás Hernández,Internacional,DEFENCE,-0.3,-0.9,-0.31,-0.54,-0.55,-0.7,-1.01,0.11,0.21
+Léo Pereira,Flamengo,DEFENCE,0.94,0.23,0.65,0.59,0.22,-0.06,0.12,0.59,0.9
+Fabrício Bruno,Flamengo,DEFENCE,0.67,-0.2,0.02,0.66,0.03,-0.62,-0.26,0.26,1.13
+Bruno Viana,Coritiba,DEFENCE,-0.34,0.09,-0.37,0.09,-0.18,0.79,-0.13,-0.44,-0.02
+Benjamín Kuscevic,Coritiba,DEFENCE,-0.14,-0.19,0.06,1.01,0.74,0.59,-0.22,-0.03,-0.28
+Emanuel Brítez,Fortaleza,DEFENCE,-0.1,0.04,0.09,0.42,0.98,1.05,0.42,-0.41,-0.06
+Titi,Fortaleza,DEFENCE,-0.28,0.09,-0.19,0.88,-0.06,0.54,-0.83,0.21,-0.35
+Marcelo Benevenuto,Fortaleza,DEFENCE,-0.6,0.03,-0.49,0.35,-0.15,0.07,0.28,-0.51,-0.92
+Nino,Fluminense,DEFENCE,1.24,-0.18,0.17,0.29,-0.01,0.33,0.88,0.39,0.48
+Felipe Melo,Fluminense,DEFENCE,1.11,0.14,0.49,-1.55,-0.66,0.04,-0.34,0.75,0.39
+André,Fluminense,DEFENCE,1.86,2.07,0.2,1.81,-0.21,-1.92,-1.74,0.65,0.44
+Thiago Santos,Fluminense,DEFENCE,1.27,1.75,0.47,0.24,0.07,0.6,-0.34,0.72,1.63
+David Braz,Fluminense,DEFENCE,0.66,-0.28,0.05,-0.3,-0.22,-0.02,0.34,0.55,-0.09
+Thiago Heleno,Athletico Paranaense,DEFENCE,-0.34,0.34,0.12,0.35,0.19,-0.22,0.91,-0.05,-0.84
+Pablo,Flamengo,DEFENCE,-1.18,-1.02,-1.4,0.33,0.83,-1.54,1.38,-1.73,-0.71
+Zé Ivaldo,Athletico Paranaense,DEFENCE,0.45,0.9,0.62,0.43,-0.39,0.56,-0.36,0.5,-0.02
+Éder,América Mineiro,DEFENCE,-0.38,-0.46,-0.49,-0.64,-0.1,0.27,0.02,-0.25,-0.03
+Iago Maidana,América Mineiro,DEFENCE,-0.93,-0.37,-0.38,-0.09,-0.11,0.37,0.89,-0.48,-0.71
+Ricardo Silva,América Mineiro,DEFENCE,-0.29,-0.04,-0.42,0.85,-0.19,1.53,0.4,-0.4,-0.31
+Danilo Avelar,América Mineiro,DEFENCE,-0.16,-0.17,0.24,-0.48,0.47,0.49,3.43,-0.18,0.53
+Víctor Cuesta,Botafogo,DEFENCE,-0.19,0.46,0.45,-0.07,0.32,-0.08,0.36,0.13,-0.08
+Adryelson,Botafogo,DEFENCE,-0.23,-0.16,0.09,0.85,0.67,1.59,0.3,-0.12,-1.23
+Allyson,Cuiabá,DEFENCE,-0.47,-0.28,-0.62,-0.47,-0.57,0.33,-0.06,-0.05,-1.35
+Marllon,Cuiabá,DEFENCE,-0.49,-0.55,-0.9,0.26,0.69,0.07,-0.49,-0.02,-0.58
+Alan Empereur,Cuiabá,DEFENCE,-0.16,-1.48,-0.73,-1.3,0.16,-0.18,-0.56,0.5,0.63
+Natan,Red Bull Bragantino,DEFENCE,-0.98,0.8,0.07,0.0,-0.52,-1.47,-0.3,-0.73,-0.31
+Eduardo Santos,Red Bull Bragantino,DEFENCE,-0.02,0.75,0.72,0.3,0.48,0.39,0.06,-0.29,-0.01
+Luan Patrick,Red Bull Bragantino,DEFENCE,-0.42,0.19,1.36,-0.18,-0.13,-1.89,-1.27,-0.2,-0.14
+Léo Realpe,Red Bull Bragantino,DEFENCE,-0.18,0.25,1.41,0.44,-0.24,0.01,-0.58,-0.77,1.08
+Messias,Santos,DEFENCE,-1.24,-0.92,-0.4,-0.15,0.6,1.44,0.32,-0.36,-1.4
+Joaquim,Santos,DEFENCE,0.18,0.62,-0.12,0.33,1.35,1.67,2.61,0.43,-0.24
+Maicon,Vasco da Gama,DEFENCE,0.05,0.06,-0.42,-0.86,-0.25,1.05,0.09,0.32,0.53
+David Luiz,Flamengo,DEFENCE,0.54,-0.03,0.41,-0.54,-0.34,0.37,-0.11,0.65,1.27
+Gil,Corinthians,DEFENCE,-0.3,-0.31,-0.67,-0.39,0.28,0.43,0.6,0.24,-1.14
+Murillo,Corinthians,DEFENCE,0.72,-0.68,-0.33,-0.09,-0.13,0.88,0.11,0.82,0.23
+Alan Franco,São Paulo,DEFENCE,0.71,0.83,1.35,-0.91,-0.46,0.36,0.05,0.7,-0.78
+Robert Arboleda,São Paulo,DEFENCE,0.64,0.45,0.21,0.56,-0.16,0.05,0.81,0.39,-1.06
+Beraldo,São Paulo,DEFENCE,0.64,0.68,0.07,-0.15,-0.19,-0.11,-0.35,0.37,0.42
+Diego Costa,São Paulo,DEFENCE,0.35,-0.12,-0.15,0.18,-0.22,-0.18,-0.44,0.82,-0.57
+Bruno Melo,Goiás,DEFENCE,-0.63,-1.21,-0.96,-0.98,0.09,0.29,0.09,0.13,-0.26
+Lucas Halter,Goiás,DEFENCE,0.13,0.07,-0.88,-0.07,0.17,1.43,0.41,0.42,0.88
+Sidimar,Goiás,DEFENCE,-0.92,-1.37,-0.51,-1.17,0.23,2.29,1.03,-0.74,-1.23
+Jemerson,Atlético Mineiro,DEFENCE,-0.18,0.01,0.94,-0.32,0.32,-0.08,-0.58,-0.15,-0.83
+Mauricio Lemos,Atlético Mineiro,DEFENCE,0.34,1.56,1.47,1.31,0.33,0.03,-0.52,-0.07,-0.07
+Bruno Fuchs,Atlético Mineiro,DEFENCE,0.32,-0.11,-0.32,0.05,-0.06,-0.34,-1.12,0.5,0.57
+Caetano,Corinthians,DEFENCE,0.02,-0.3,-0.57,-0.84,-0.73,-0.09,-0.45,0.26,-0.72
+Henrique,Coritiba,DEFENCE,-1.38,-1.81,-1.15,-1.33,-0.39,-0.4,-1.09,-0.59,-1.48
+Gary Medel,Vasco da Gama,DEFENCE,0.14,-1.52,-0.49,-0.77,-0.41,-1.36,-1.42,0.57,-0.53
+Lucas Veríssimo,Corinthians,DEFENCE,0.25,-0.42,-0.3,-0.61,-0.26,1.75,1.99,-0.2,-0.78
+João Basso,Santos,DEFENCE,0.19,0.44,0.63,1.09,0.16,-0.04,0.27,0.18,0.69
+Cacá,Athletico Paranaense,DEFENCE,-0.67,-0.31,-0.48,0.41,0.71,-0.19,0.23,-0.16,-0.29
+Lucas Esquivel,Athletico Paranaense,DEFENCE,0.25,0.68,1.29,0.63,-0.27,-1.25,-1.28,0.56,0.64
+Léo Ortiz,Red Bull Bragantino,DEFENCE,0.59,0.97,1.9,0.66,0.33,0.79,0.51,-0.15,1.73
+Thalisson Gabriel,Coritiba,DEFENCE,0.09,-0.99,-0.91,-0.13,-0.44,0.46,-0.26,0.53,-0.44
