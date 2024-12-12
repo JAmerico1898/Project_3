@@ -475,8 +475,8 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            model = genai.GenerativeModel('gemini-1.5-flash')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
