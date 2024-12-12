@@ -510,6 +510,7 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
+                {"role": "assistant", "content": f"Player Analysis for {role_2}:"}
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -1034,6 +1035,7 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
+                {"role": "assistant", "content": f"Player Analysis for {role_2}:"}
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -1551,6 +1553,7 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
+                {"role": "assistant", "content": f"Player Analysis for {role_2}:"}
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -2043,6 +2046,7 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
+                {"role": "assistant", "content": f"Player Analysis for {role_2}:"}
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -2554,11 +2558,13 @@ if jogadores:
             
             Args:
                 player_name (str): Name of the selected player
+                role_2 (str): Postion of the player
                 initial_description (str): Initial AI-generated player description
             """
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
+                {"role": "assistant", "content": f"Player Analysis for {role_2}:"}
                 {"role": "assistant", "content": initial_description}
             ]
 
