@@ -621,7 +621,7 @@ if jogadores:
 ##########################################################################################################################
 ##########################################################################################################################
 
-    elif posição == ("R/L BACK"):
+    elif posição == ("FULL BACK"):
         #Plotar Primeiro Gráfico - Radar de Percentis do Jogador na liga:
         st.markdown("<h3 style='text-align: center; color: blue; '>Players' Attributes in Brasileirão 2023 (in Percentiles)</h3>", unsafe_allow_html=True)
         Lateral_Charts = pd.read_csv('variable_df_adj_final_per.csv')
@@ -762,65 +762,65 @@ if jogadores:
         lateral_ranking_df = pd.read_csv("variable_df_adj_final_rank.csv")
 
         # Building the Extended Title"
-        rows_count = lateral_ranking_df[lateral_ranking_df['role_2'] == "R/L BACK"].shape[0]
+        rows_count = lateral_ranking_df[lateral_ranking_df['role_2'] == "FULL BACK"].shape[0]
         involvement_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'involvement'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'involvement'].values
         involvement_ranking_value = involvement_ranking_value[0].astype(int)
         output_str = f"({involvement_ranking_value}/{rows_count})"
         full_title_involvement = f"Involvement {output_str} {highlight_involvement_value}"
 
         # Building the Extended Title"
         active_defence_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'active_defence'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'active_defence'].values
         active_defence_ranking_value = active_defence_ranking_value[0].astype(int)
         output_str = f"({active_defence_ranking_value}/{rows_count})"
         full_title_active_defence = f"Active defence {output_str} {highlight_active_defence_value}"
 
         # Building the Extended Title"
         intelligent_defence_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'intelligent_defence'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'intelligent_defence'].values
         intelligent_defence_ranking_value = intelligent_defence_ranking_value[0].astype(int)
         output_str = f"({intelligent_defence_ranking_value}/{rows_count})"
         full_title_intelligent_defence = f"Intelligent defence {output_str} {highlight_intelligent_defence_value}"
 
         # Building the Extended Title"
         territorial_dominance_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'territorial_dominance'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'territorial_dominance'].values
         territorial_dominance_ranking_value = territorial_dominance_ranking_value[0].astype(int)
         output_str = f"({territorial_dominance_ranking_value}/{rows_count})"
         full_title_territorial_dominance = f"Territorial dominance {output_str} {highlight_intelligent_defence_value}"
         
         # Building the Extended Title"
         chance_prevention_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'chance_prevention'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'chance_prevention'].values
         chance_prevention_ranking_value = chance_prevention_ranking_value[0].astype(int)
         output_str = f"({chance_prevention_ranking_value}/{rows_count})"
         full_title_chance_prevention = f"Chance prevention {output_str} {highlight_chance_prevention_value}"
 
         # Building the Extended Title"
         progression_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'progression'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'progression'].values
         progression_ranking_value = progression_ranking_value[0].astype(int)
         output_str = f"({progression_ranking_value}/{rows_count})"
         full_title_progression = f"Progression {output_str} {highlight_progression_value}"
 
         # Building the Extended Title"
         passing_quality_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'passing_quality'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'passing_quality'].values
         passing_quality_ranking_value = passing_quality_ranking_value[0].astype(int)
         output_str = f"({passing_quality_ranking_value}/{rows_count})"
         full_title_passing_quality = f"Passing quality {output_str} {highlight_passing_quality_value}"
 
         # Building the Extended Title"
         run_quality_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'run_quality'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'run_quality'].values
         run_quality_ranking_value = run_quality_ranking_value[0].astype(int)
         output_str = f"({run_quality_ranking_value}/{rows_count})"
         full_title_run_quality = f"Run quality {output_str} {highlight_run_quality_value}"
 
         # Building the Extended Title"
         providing_teammates_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "R/L BACK"), 'providing_teammates'].values
+                                                            (lateral_ranking_df['role_2'] == "FULL BACK"), 'providing_teammates'].values
         providing_teammates_ranking_value = providing_teammates_ranking_value[0].astype(int)
         output_str = f"({providing_teammates_ranking_value}/{rows_count})"
         full_title_providing_teammates = f"Providing teammates {output_str} {highlight_providing_teammates_value}"
