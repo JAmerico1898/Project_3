@@ -510,7 +510,6 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
-                {"role": "assistant", "content": f"Player Analysis for {role_2}:"},
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -1035,7 +1034,6 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
-                {"role": "assistant", "content": f"Player Analysis for {role_2}:"},
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -1553,7 +1551,6 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
-                {"role": "assistant", "content": f"Player Analysis for {role_2}:"},
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -2046,7 +2043,6 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
-                {"role": "assistant", "content": f"Player Analysis for {role_2}:"},
                 {"role": "assistant", "content": initial_description}
             ]
 
@@ -2564,7 +2560,6 @@ if jogadores:
             # Reset chat history
             st.session_state.messages = [
                 {"role": "assistant", "content": f"Player Analysis for {player_name}:"},
-                {"role": "assistant", "content": f"Player Analysis for {role_2}:"},
                 {"role": "assistant", "content": initial_description}
             ]
 
