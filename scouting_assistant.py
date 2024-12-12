@@ -529,7 +529,7 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            genai.configure(api_key=st.secrets.GEMINI_API_KEY)
             model = genai.GenerativeModel('gemini-pro')
 
     
