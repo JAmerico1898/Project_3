@@ -16,13 +16,10 @@ import streamlit as st
 import openai
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Get the API key
-api_key = os.getenv("GEMINI_API_KEY")
-
-if not api_key:
-    st.error("API key not found! Please set it in the .env file.")
+#api_key = os.getenv("GEMINI_API_KEY")
 
 #CABEÇALHO DO FORM
 st.markdown("<h1 style='text-align: center;'>Scouting Assistant</h1>", unsafe_allow_html=True)
@@ -475,8 +472,8 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets.GEMINI_API_KEY)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            model = genai.GenerativeModel('gemini-pro')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
@@ -529,7 +526,7 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets.GEMINI_API_KEY)
+            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
             model = genai.GenerativeModel('gemini-pro')
 
     
