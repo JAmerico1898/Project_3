@@ -23,7 +23,10 @@ api_key = os.getenv("GEMINI_API_KEY")
 
 if not api_key:
     st.error("API key not found! Please set it in the .env file.")
-    
+
+# Configure Gemini API
+genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+model = genai.GenerativeModel('gemini-pro')
 
 #CABEÇALHO DO FORM
 st.markdown("<h1 style='text-align: center;'>Scouting Assistant</h1>", unsafe_allow_html=True)
