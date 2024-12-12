@@ -165,7 +165,7 @@ if jogadores:
         Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
         #Collecting data to plot
-        metrics = Lateral_Charts_2.iloc[:, np.r_[27, 30, 17, 25, 33, 32, 24, 29]].reset_index(drop=True)
+        metrics = Lateral_Charts_2.iloc[:, np.r_[26, 29, 16, 24, 32, 31, 23, 28]].reset_index(drop=True)
         metrics_involvement = metrics.iloc[:, 0].tolist()
         metrics_pressing = metrics.iloc[:, 1].tolist()
         metrics_aerial_threat = metrics.iloc[:, 2].tolist()
@@ -178,7 +178,7 @@ if jogadores:
 
         # The specific data point you want to highlight
         highlight = Lateral_Charts_2[(Lateral_Charts_2['player_name']==jogadores)]
-        highlight = highlight.iloc[:, np.r_[27, 30, 17, 25, 33, 32, 24, 29]].reset_index(drop=True)
+        highlight = highlight.iloc[:, np.r_[26, 29, 16, 24, 32, 31, 23, 28]].reset_index(drop=True)
         highlight_involvement = highlight.iloc[:, 0].tolist()
         highlight_pressing = highlight.iloc[:, 1].tolist()
         highlight_aerial_threat = highlight.iloc[:, 2].tolist()
@@ -465,16 +465,6 @@ if jogadores:
                 st.error(f"Error loading Q&A context: {e}")
                 return ""
 
-
-
-
-
-
-
-
-
-
-
         def generate_player_description(player_data):
             """
             Generate a descriptive summary of a player's performance.
@@ -568,7 +558,7 @@ if jogadores:
 
 
         def main():
-            st.title("⚽ Soccer Striker Performance Analysis")
+            st.title("⚽ Soccer Performance Analysis")
             
             # Load striker data
             striker_data = pd.read_csv('striker.csv')
@@ -710,7 +700,7 @@ if jogadores:
         Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
         #Collecting data to plot
-        metrics = Lateral_Charts_2.iloc[:, np.r_[27, 15, 26, 34, 19, 31, 28, 33, 32]].reset_index(drop=True)
+        metrics = Lateral_Charts_2.iloc[:, np.r_[26, 15, 25, 33, 18, 30, 27, 32, 31]].reset_index(drop=True)
         metrics_involvement = metrics.iloc[:, 0].tolist()
         metrics_active_defence = metrics.iloc[:, 1].tolist()
         metrics_intelligent_defence = metrics.iloc[:, 2].tolist()
@@ -724,7 +714,7 @@ if jogadores:
 
         # The specific data point you want to highlight
         highlight = Lateral_Charts_2[(Lateral_Charts_2['player_name']==jogadores)]
-        highlight = highlight.iloc[:, np.r_[27, 15, 26, 34, 19, 31, 28, 33, 32]].reset_index(drop=True)
+        highlight = highlight.iloc[:, np.r_[26, 15, 25, 33, 18, 30, 27, 32, 31]].reset_index(drop=True)
         highlight_involvement = highlight.iloc[:, 0].tolist()
         highlight_active_defence = highlight.iloc[:, 1].tolist()
         highlight_intelligent_defence = highlight.iloc[:, 2].tolist()
@@ -1076,7 +1066,7 @@ if jogadores:
             
             # Construct enhanced prompt with player context
             enhanced_prompt = (
-                f"Context: We are discussing {player_name}, a right/left back. "
+                f"Context: We are discussing {player_name}, a full back. "
                 f"Player Statistics: {metrics_context}. "
                 f"User Question: {prompt}"
             )
@@ -1090,10 +1080,10 @@ if jogadores:
             st.title("⚽ Soccer Performance Analysis")
             
             # Load striker data
-            rl_back_data = pd.read_csv('lateral.csv')
+            full_back_data = pd.read_csv('lateral.csv')
             
             # Ensure only numeric columns are used for z-scores
-            numeric_columns = rl_back_data.select_dtypes(include=[np.number]).columns.tolist()
+            numeric_columns = full_back_data.select_dtypes(include=[np.number]).columns.tolist()
             numeric_columns = [col for col in numeric_columns if col != 'player_name']
             
             # Player selection altready defined
@@ -1104,7 +1094,7 @@ if jogadores:
             #)
                         
             # Get player's data
-            player_info = rl_back_data[rl_back_data['player_name'] == selected_player].iloc[0]
+            player_info = full_back_data[full_back_data['player_name'] == selected_player].iloc[0]
             
             # Display player's metrics
             #st.subheader(f"Metrics for {selected_player}")
@@ -1229,7 +1219,7 @@ if jogadores:
         Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
         #Collecting data to plot
-        metrics = Lateral_Charts_2.iloc[:, np.r_[27, 15, 26, 34, 19, 21, 17, 20, 31]].reset_index(drop=True)
+        metrics = Lateral_Charts_2.iloc[:, np.r_[26, 15, 25, 33, 18, 20, 16, 19, 30]].reset_index(drop=True)
         metrics_involvement = metrics.iloc[:, 0].tolist()
         metrics_active_defence = metrics.iloc[:, 1].tolist()
         metrics_intelligent_defence = metrics.iloc[:, 2].tolist()
@@ -1243,7 +1233,7 @@ if jogadores:
 
         # The specific data point you want to highlight
         highlight = Lateral_Charts_2[(Lateral_Charts_2['player_name']==jogadores)]
-        highlight = highlight.iloc[:, np.r_[27, 15, 26, 34, 19, 31, 28, 33, 32]].reset_index(drop=True)
+        highlight = highlight.iloc[:, np.r_[26, 15, 25, 33, 18, 20, 16, 19, 30]].reset_index(drop=True)
         highlight_involvement = highlight.iloc[:, 0].tolist()
         highlight_active_defence = highlight.iloc[:, 1].tolist()
         highlight_intelligent_defence = highlight.iloc[:, 2].tolist()
@@ -1321,7 +1311,7 @@ if jogadores:
                                                             (lateral_ranking_df['role_2'] == "DEFENCE"), 'territorial_dominance'].values
         territorial_dominance_ranking_value = territorial_dominance_ranking_value[0].astype(int)
         output_str = f"({territorial_dominance_ranking_value}/{rows_count})"
-        full_title_territorial_dominance = f"Territorial dominance {output_str} {highlight_intelligent_defence_value}"
+        full_title_territorial_dominance = f"Territorial dominance {output_str} {highlight_territorial_dominance_value}"
         
         # Building the Extended Title"
         chance_prevention_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
@@ -1831,7 +1821,7 @@ if jogadores:
 
         # Building the Extended Title"
         progression_ranking_value = lateral_ranking_df.loc[(lateral_ranking_df['player_name'] == jogadores) & 
-                                                            (lateral_ranking_df['role_2'] == "MIDFIELDER"), 'hold-up_play'].values
+                                                            (lateral_ranking_df['role_2'] == "MIDFIELDER"), 'progression'].values
         progression_ranking_value = progression_ranking_value[0].astype(int)
         output_str = f"({progression_ranking_value}/{rows_count})"
         full_title_progression = f"Progression {output_str} {highlight_progression_value}"
@@ -2238,7 +2228,7 @@ if jogadores:
         Lateral_Charts_2 = Lateral_Charts_2[(Lateral_Charts['role_2']==posição)]
 
         #Collecting data to plot
-        metrics = Lateral_Charts_2.iloc[:, np.r_[27, 30, 28, 33, 22, 23, 32, 18, 24]].reset_index(drop=True)
+        metrics = Lateral_Charts_2.iloc[:, np.r_[26, 29, 27, 32, 21, 22, 31, 17, 23]].reset_index(drop=True)
         metrics_involvement = metrics.iloc[:, 0].tolist()
         metrics_pressing = metrics.iloc[:, 1].tolist()
         metrics_passing_quality = metrics.iloc[:, 2].tolist()
@@ -2252,7 +2242,7 @@ if jogadores:
 
         # The specific data point you want to highlight
         highlight = Lateral_Charts_2[(Lateral_Charts_2['player_name']==jogadores)]
-        highlight = highlight.iloc[:, np.r_[27, 30, 28, 33, 22, 23, 32, 18, 24]].reset_index(drop=True)
+        highlight = highlight.iloc[:, np.r_[26, 29, 27, 32, 21, 22, 31, 17, 23]].reset_index(drop=True)
         highlight_involvement = highlight.iloc[:, 0].tolist()
         highlight_pressing = highlight.iloc[:, 1].tolist()
         highlight_passing_quality = highlight.iloc[:, 2].tolist()
