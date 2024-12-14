@@ -497,9 +497,9 @@ if jogadores:
             prompt = (
                 f"Please use the statistical description to give a concise, 4 sentence summary of {player_data['player_name']}'s playing style, strengths and weaknesses. "
                 f"Statistical Context: {metrics_description}. "
-                "The first sentence should use varied language to give an overview of the player. "
-                "The second sentence should describe the player's specific strengths based on the metrics. "
-                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics. "
+                "The first sentence should use easy-to-follow language to give an overview of the player. "
+                "The second sentence should describe the player's specific strengths based on the metrics, without presenting the values. "
+                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics, without presenting the values. "
                 "Finally, summarise exactly how the player compares to others in the same position. "
             )
             
@@ -1035,9 +1035,9 @@ if jogadores:
             prompt = (
                 f"Please use the statistical description to give a concise, 4 sentence summary of {player_data['player_name']}'s playing style, strengths and weaknesses. "
                 f"Statistical Context: {metrics_description}. "
-                "The first sentence should use varied language to give an overview of the player. "
-                "The second sentence should describe the player's specific strengths based on the metrics. "
-                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics. "
+                "The first sentence should use easy-to-follow language to give an overview of the player. "
+                "The second sentence should describe the player's specific strengths based on the metrics, without presenting the values. "
+                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics, without presenting the values. "
                 "Finally, summarise exactly how the player compares to others in the same position. "
             )
             
@@ -1566,9 +1566,9 @@ if jogadores:
             prompt = (
                 f"Please use the statistical description to give a concise, 4 sentence summary of {player_data['player_name']}'s playing style, strengths and weaknesses. "
                 f"Statistical Context: {metrics_description}. "
-                "The first sentence should use varied language to give an overview of the player. "
-                "The second sentence should describe the player's specific strengths based on the metrics. "
-                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics. "
+                "The first sentence should use easy-to-follow language to give an overview of the player. "
+                "The second sentence should describe the player's specific strengths based on the metrics, without presenting the values. "
+                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics, without presenting the values. "
                 "Finally, summarise exactly how the player compares to others in the same position. "
             )
             
@@ -2072,9 +2072,9 @@ if jogadores:
             prompt = (
                 f"Please use the statistical description to give a concise, 4 sentence summary of {player_data['player_name']}'s playing style, strengths and weaknesses. "
                 f"Statistical Context: {metrics_description}. "
-                "The first sentence should use varied language to give an overview of the player. "
-                "The second sentence should describe the player's specific strengths based on the metrics. "
-                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics. "
+                "The first sentence should use easy-to-follow language to give an overview of the player. "
+                "The second sentence should describe the player's specific strengths based on the metrics, without presenting the values. "
+                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics, without presenting the values. "
                 "Finally, summarise exactly how the player compares to others in the same position. "
             )
             
@@ -2602,9 +2602,9 @@ if jogadores:
             prompt = (
                 f"Please use the statistical description to give a concise, 4 sentence summary of {player_data['player_name']}'s playing style, strengths and weaknesses. "
                 f"Statistical Context: {metrics_description}. "
-                "The first sentence should use varied language to give an overview of the player. "
-                "The second sentence should describe the player's specific strengths based on the metrics. "
-                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics. "
+                "The first sentence should use easy-to-follow language to give an overview of the player. "
+                "The second sentence should describe the player's specific strengths based on the metrics, without presenting the values. "
+                "The third sentence should describe aspects in which the player is average and/or weak based on the statistics, without presenting the values. "
                 "Finally, summarise exactly how the player compares to others in the same position. "
             )
             
