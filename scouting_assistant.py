@@ -472,9 +472,16 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
-            
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
+                
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
                 f"{metric.replace('_', ' ').title()}: {describe_level(value)} ({value:.2f} z-score)"
@@ -526,8 +533,15 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
 
     
             # Load Q&A context for the player
@@ -1001,8 +1015,15 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
@@ -1050,8 +1071,15 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare additional context from player metrics
             metrics_context = " ".join([
@@ -1518,8 +1546,15 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
@@ -1567,8 +1602,15 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare additional context from player metrics
             metrics_context = " ".join([
@@ -2010,8 +2052,15 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
@@ -2059,8 +2108,15 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare additional context from player metrics
             metrics_context = " ".join([
@@ -2526,8 +2582,15 @@ if jogadores:
                 str: Descriptive narrative about the player
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare descriptive metrics (only for numeric columns)
             metrics_description = " ".join([
@@ -2576,8 +2639,15 @@ if jogadores:
                 str: AI-generated response
             """
             # Configure Gemini API
-            genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
-            model = genai.GenerativeModel('gemini-pro')
+            #genai.configure(api_key=st.secrets['GEMINI_API_KEY'])
+            #model = genai.GenerativeModel('gemini-pro')
+            # Try to get API key from Streamlit secrets, with a fallback
+            api_key = st.secrets.get('GEMINI_API_KEY', os.environ.get('GEMINI_API_KEY'))
+            if not api_key:
+                st.error("No API key found. Please configure the Gemini API key.")
+            else:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-pro')
             
             # Prepare additional context from player metrics
             metrics_context = " ".join([
